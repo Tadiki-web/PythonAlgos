@@ -1,5 +1,5 @@
 """
-This is pure Python implementation of linear search algorithm
+This is a pure Python implementation of the linear search algorithm.
 
 For doctests run following command:
 python3 -m doctest -v linear_search.py
@@ -12,10 +12,10 @@ python3 linear_search.py
 def linear_search(sequence: list, target: int) -> int:
     """A pure Python implementation of a linear search algorithm
 
-    :param sequence: a collection with comparable items (as sorted items not required
-        in Linear Search)
+    :param sequence: a collection with comparable items (sorting is not required for
+        linear search)
     :param target: item value to search
-    :return: index of found item or None if item is not found
+    :return: index of found item or -1 if item is not found
 
     Examples:
     >>> linear_search([0, 5, 7, 10, 15], 0)
